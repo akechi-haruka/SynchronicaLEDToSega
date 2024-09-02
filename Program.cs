@@ -53,7 +53,10 @@ namespace SynchronicaLEDToSega {
 
             Console.WriteLine("Board Name: " + bn);
             Console.WriteLine("Chip Number: " + cn);
-            Console.WriteLine("Firmware Version:" + fv);
+            Console.WriteLine("Firmware Version: " + fv);
+
+            Console.WriteLine("Waiting for Synchronica...");
+            pipe.WaitForConnection();
 
             Console.WriteLine("Running...");
 

@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "SynchronicaLEDToSega": {
+      "commandName": "Project",
+      "commandLineArgs": "9"
+    }
+  }
+}
